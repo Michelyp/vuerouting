@@ -1,15 +1,17 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+<h1>Titulo estatico</h1>
+<TablaMenu/>
+<hr/>
+<router-view></router-view>
+<hr/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import TablaMenu from './components/TablaMenu.vue'
 export default {
   name: 'App',
-  components: {
-    HelloWorld
+  components:{
+    TablaMenu
   }
 }
 </script>
